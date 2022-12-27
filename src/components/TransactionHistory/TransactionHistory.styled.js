@@ -25,6 +25,8 @@ const Heading = styled.th`
   background-color: #00bcd5;
   border-right: 1px solid #ffffff;
   :first-child {
+    padding-left: 110px;
+    text-align: left;
     border-left: 1px solid #00bcd5;
   }
   :last-child {
@@ -45,7 +47,7 @@ const Data = styled.td`
   text-align: center;
   border-right: 1px solid #e0e5eb;
   :first-child {
-    padding-left: 105px;
+    padding-left: 110px;
     text-align: left;
     text-transform: capitalize;
     border-left: 1px solid #e0e5eb;
