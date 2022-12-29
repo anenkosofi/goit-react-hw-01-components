@@ -30,7 +30,7 @@ const Status = styled.span`
   border-radius: 50%;
 
   ${props => {
-    return props.status ? 'background-color: green' : 'background-color: red';
+    return props.isOnline ? 'background-color: green' : 'background-color: red';
   }}
 `;
 
